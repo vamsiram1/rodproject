@@ -1,0 +1,41 @@
+
+/* .metrics-grid{
+    display:none;
+} */
+
+.fee-head-container {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 40px;
+  flex-wrap: wrap;
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  
+  height:45vh;
+}
+
+.fee-head-column {
+  flex: 1;
+  min-width: 250px;
+}
+
+.fee-head-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  font-size: 15px;
+  color: #333;
+  height:6vh;
+}
+.fee-head-row span{
+    font-size:18px;
+    color:#626262;
+}
+
+.fee-head-row span:first-child {
+  font-weight: 400;
+}
+
+.fee-head-row span:last-child {
+  font-weight: 500;
+}

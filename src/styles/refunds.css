@@ -1,0 +1,19 @@
+.refund-container {
+  width: 294px;
+  height: 45vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px 0; /* vertical gap only */
+  align-content: flex-start;
+  padding-left:5vw;
+}
+ 
+.refund-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  color: #626262;
+  /* font-weight: 600; */
+  /* font-family: Arial, sans-serif; */
+}

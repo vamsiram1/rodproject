@@ -1,0 +1,136 @@
+.pocketmoney-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap; 
+  gap: 30px;
+  /* padding-bottom: 3vh; */
+  height:45vh;
+  width:65vw;
+  
+}
+
+.pocketmoney-info-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 300px;
+  flex: 1;
+}
+
+.pocketmoney-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #333;
+  height:5vh;
+  /* padding-top:5px; */
+}
+
+.pocketmoney-info p{
+    font-size:18px;
+    color:#626262;
+}
+
+.pocketmoney-info span{
+    font-size:18px;
+    color:#626262;
+    padding-top:15px;
+}
+
+.pocketmoney-add-money {
+  margin-top: 30vh;
+  padding: 10px 20px;
+  background-color: #295eff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+  width:12vw;
+ 
+}
+
+.pocketmoney-add-money:hover {
+  background-color: #1c48c9;
+}
+
+.pocketmoney-card {
+   /* margin-top:20px; */
+  max-width: 240px;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #663ec7, #9c27b0);
+  color: white;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  
+  height: 33vh;
+  position: relative;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.pocketmoney-card-content {
+  flex: 1;
+  padding:15px;
+}
+
+.pocketmoney-admission {
+  font-size: 0.85em;
+  letter-spacing:2px;
+  margin-bottom: 0.95em;
+}
+
+.pocketmoney-name {
+  font-size: 1em;
+  padding-bottom: 1.2em;
+  letter-spacing:2px;
+}
+
+.pocketmoney-label {
+  font-size: 12px;
+  color: #ddd;
+  
+}
+
+.pocketmoney-balance-label {
+  font-size: 8px;
+  color: #ccc;
+  text-align:right;
+  margin:0;
+}
+
+.pocketmoney-balance {
+  font-size: 24px;
+  font-weight: bold;
+  text-align:right;
+  margin:0;
+  
+}
+
+
+
+.pocketmoney-card-footer {
+  height:5vh;
+  align-items: center;
+  width:100%;
+  background-color:black;
+  border-bottom-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.pocketmoney-emoji {
+    padding-left:10px;
+    padding-top:5px;
+  width: 3vw;
+  height: 5vh;
+}
+
+.pocketmoney-icon {
+  font-size: 18px;
+}
