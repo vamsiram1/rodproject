@@ -17,6 +17,8 @@
   gap: 1rem;
   flex: 1;
   min-width: 200px;
+  padding-top:2.5vh;
+  padding-left:2vw;
 }
 
 .fee-row {
@@ -26,7 +28,8 @@
   color: #626262;
   padding-top:5px;
   /* width:2em; */
-  width:90%;
+  width:80%;
+  height:4vh;
   /* gap: */
 }
 
@@ -82,19 +85,18 @@
 
 .payment-button-container {
   text-align: center;
-  padding-top: 2.5rem;
+  padding-top: 3rem;
 }
 
 .pay-button {
   background-color: #3425FF;
-  color: white;
-  padding: 12px 15px;
-  font-size: 14px;
-  font-weight: bold;
+  color: #FFFFFF;
+  padding: 15px 26px;
+  font-size: 15px;
   border: none;
   border-radius: 12px;
   cursor: pointer;
-  transition: background 0.3s ease;
+  /* transition: background 0.3s ease; */
 }
 
 .pay-button:hover {
@@ -102,5 +104,5 @@
 }
 
 .fee-row span{
-    font-size: 18px;
+    font-size: 16px;
 }

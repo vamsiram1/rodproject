@@ -17,6 +17,9 @@
   gap: 15px;
   max-width: 300px;
   flex: 1;
+  padding-top:5vh;
+  padding-left:3vh;
+
 }
 
 .pocketmoney-info {
@@ -40,7 +43,7 @@
 }
 
 .pocketmoney-add-money {
-  margin-top: 30vh;
+  margin-top: auto;
   padding: 10px 20px;
   background-color: #295eff;
   color: white;
@@ -68,37 +71,44 @@
   flex-direction: column;
   justify-content: space-between;
   flex: 1;
+  margin-top:3vh;
   
-  height: 33vh;
+  height: 90%;
   position: relative;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
 .pocketmoney-card-content {
   flex: 1;
-  padding:15px;
+  padding:1.1em;
+  
+
+
 }
 
 .pocketmoney-admission {
-  font-size: 0.85em;
+  font-size: 1.2em;
   letter-spacing:2px;
-  margin-bottom: 0.95em;
+  padding-bottom: 1em;
 }
 
 .pocketmoney-name {
-  font-size: 1em;
+  font-size: 1.5em;
   padding-bottom: 1.2em;
   letter-spacing:2px;
 }
 
 .pocketmoney-label {
-  font-size: 12px;
+  font-size: 5em;
   color: #ddd;
   
 }
-
+.pocketmoney-balance-container{
+ 
+  padding-top: 4vh;
+}
 .pocketmoney-balance-label {
-  font-size: 8px;
+  font-size: 0.8em;
   color: #ccc;
   text-align:right;
   margin:0;
@@ -122,6 +132,7 @@
   border-bottom-left-radius: 15px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+
 }
 
 .pocketmoney-emoji {

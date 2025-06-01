@@ -1,8 +1,8 @@
 import "../styles/transport-details.css";
 function TransportDetails() {
     return (
-        <>
 
+        <div>
             <div class="transport-container">
                 <div class="transport-info">
                     <div class="transport-row">
@@ -21,7 +21,7 @@ function TransportDetails() {
                         <p>Stage</p>
                         <span>Addanki</span>
                     </div>
-                    
+
                 </div>
 
                 <div class="transport-visual">
@@ -36,13 +36,13 @@ function TransportDetails() {
                     </div> */}
                 </div>
 
-                
+
             </div>
-            
+
             <div className="manage-button-container">
                 <button class="manage-button">+ Manage Transport</button>
             </div>
-        </>
+        </div>
     );
 }
 

@@ -27,18 +27,20 @@ function PocketMoney() {
 
             <div className="pocketmoney-card">
                 <div className="pocketmoney-card-content">
-                    <p className="pocketmoney-admission">Admission No<br /><strong>123456765432</strong></p>
-                    <p className="pocketmoney-name">Yaswanth Bhimineni<br /><span className="label">Student Name</span></p>
+                    <div>
+                        <p className="pocketmoney-admission">Admission No<br /><strong>123456765432</strong></p>
+                        <p className="pocketmoney-name">Yaswanth Bhimineni<br /><span className="label">Student Name</span></p>
+                    </div>
                     <div className="pocketmoney-balance-container">
-                    <p className="pocketmoney-balance-label">Balance</p>
-                    <p className="pocketmoney-balance">2,000</p>
+                        <p className="pocketmoney-balance-label">Balance</p>
+                        <p className="pocketmoney-balance">2,000</p>
                     </div>
 
-                    
+
                 </div>
                 <div className="pocketmoney-card-footer">
-                        <img src={srichai} alt="student" className="pocketmoney-emoji" />
-                        <img src={srichai2} alt="student" className="pocketmoney-emoji" />
+                    <img src={srichai} alt="student" className="pocketmoney-emoji" />
+                    <img src={srichai2} alt="student" className="pocketmoney-emoji" />
                 </div>
 
             </div>

@@ -1,7 +1,7 @@
 import "../styles/fee-details.css"
 function FeeDetails() {
     return (
-        <>
+        <div>
             <div class="fee-summary-container">
                 <div class="fee-details">
                     <div class="fee-row"><span>Course Fee</span><span>145,000</span></div>
@@ -33,7 +33,7 @@ function FeeDetails() {
             <div class="payment-button-container">
                 <button class="pay-button">+ Proceed to Payment</button>
             </div>
-        </>
+        </div>
     );
 }
 

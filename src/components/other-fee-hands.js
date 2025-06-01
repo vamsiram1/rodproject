@@ -21,24 +21,7 @@ function OtherFeeHeads() {
                 </div>
             </div>
 
-            <div class="fee-head-column">
-                <div class="fee-head-row">
-                    <span>Miscellaneous</span>
-                    <span>15,000</span>
-                </div>
-                <div class="fee-head-row">
-                    <span>STD Welfare Fund</span>
-                    <span>0</span>
-                </div>
-                <div class="fee-head-row">
-                    <span>Material</span>
-                    <span>0</span>
-                </div>
-                <div class="fee-head-row">
-                    <span>EAMCET App Fee</span>
-                    <span>0</span>
-                </div>
-            </div>
+           
         </div>
 
     );
