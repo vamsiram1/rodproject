@@ -1,4 +1,5 @@
 import "../styles/fee-details.css"
+import TermPaymentChart from "./unpaid-chart";
 function FeeDetails() {
     return (
         <div>
@@ -19,15 +20,7 @@ function FeeDetails() {
                     <div class="fee-row"><span>Service Tax To Be Paid</span><span>0</span></div>
                 </div>
 
-                <div class="fee-circle-status">
-                    <div class="circle">
-                        <div class="circle-inner">
-                            <span class="term-label">Term 1</span>
-                            <span class="amount">46,000</span>
-                            <span class="status unpaid">Unpaid</span>
-                        </div>
-                    </div>
-                </div>
+                <TermPaymentChart/>
             </div>
 
             <div class="payment-button-container">

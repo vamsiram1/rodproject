@@ -1,7 +1,7 @@
 
 import './App.css';
-import "./styles/navbuttons.css"
-import Navbuttons from './components/navbuttons';
+
+import Navbuttons from './components/student-module';
 import {BrowserRouter, Routes ,Route } from 'react-router-dom';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <>
     <BrowserRouter>
     <Routes>
-            <Route path="/*" element={<Navbuttons />} />
+            <Route path="/student/*" element={<Navbuttons />} />
             {/* <Route path="/payments" element={<Payments />} />
             <Route path="/receipts" element={<Receipts />} />
             <Route path="/transport" element={<Transport />} />

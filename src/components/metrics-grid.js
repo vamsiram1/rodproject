@@ -1,55 +1,15 @@
-import { Link, useLocation } from 'react-router-dom';
-import { useState } from 'react';
-import { Route, Routes } from 'react-router-dom';
-import PocketMoney from './pocket-money';
-import FeeDetails from './fee-details';
-import TransportDetails from './transport-details';
-import Refunds from './refunds';
-import OtherFeeHeads from './other-fee-hands';
+import "../styles/metrics-grid.css"
+import { useLocation } from 'react-router-dom';
 
 
-
-import sudentinfo from "../assets/srichaiinfo.png"
-
-function Navbuttons() {
-
-
-    const location = useLocation();
-    const isActive = (path) => location.pathname === path ? "nav-link active" : "nav-link";
-    const [selectedYear, setSelectedYear] = useState('2024-2025'); // State for year selection
-    const hideMetrics = /other-fee-heads/.test(location.pathname);
-    // Sample dynamic data for metrics (replace with API data in production)
-
+function MetricsGrid() {
+    const LOCATION = useLocation();
+    const HIDEMETRICS = /other-fee-heads/.test(LOCATION.pathname);
 
     return (
-        <div className="student-container">
-            {/* Navbar and year-select in a flex row */}
-            <div className="nav-and-year-container">
-                <nav className="navbar">
-                    <div className="nav-links">
-                        <Link to="/student" className={isActive('/')}>Student Profile</Link>
-                        <Link to="/student/payments" className={isActive('/payments')}>Payments</Link>
-                        <Link to="/student/receipts" className={isActive('/receipts')}>Receipts</Link>
-                        <Link to="/student/transport" className={isActive('/transport')}>Transport</Link>
-                        <Link to="/student/academics" className={isActive('/academics')}>Academics</Link>
-                        <Link to="/student/alerts" className={isActive('/alerts')}>Alerts</Link>
-                        <Link to="/student/history" className={isActive('/history')}>History</Link>
-                        <Link to="/student/room-allotment" className={isActive('/room-allotment')}>Room Allotment</Link>
-                    </div>
-                </nav>
-                <select
-                    className="year-select"
-                    aria-label="Select academic year"
-                    value={selectedYear}
-                    onChange={(e) => setSelectedYear(e.target.value)}
-                >
-                    <option value="2024-2025">2024-2025</option>
-                    <option value="2023-2024">2023-2024</option>
-                </select>
-            </div>
-
+        <div>
             {/* Metrics grid below */}
-            {!hideMetrics && (
+            {!HIDEMETRICS && (
                 <div class="metrics-grid">
                     {/* <!-- JEE Marks Card --> */}
                     <div class="metric-card">
@@ -112,56 +72,8 @@ function Navbuttons() {
                     </div>
                 </div>
             )}
-
-
-            {/* <!-- student-info.html --> */}
-            <div class="student-info-container">
-                <div class="student-header">
-                    <div class="header-left">
-                        <img src={sudentinfo}/>
-                        <div>
-                            <h2 className="stu-info">Student Information</h2>
-                            <p className="stu-info-sub-para">Get All Student Details Regarding Fee Payment, Transport, Pocket Money, Other Fee Heads</p>
-                        </div>
-                    </div>
-                    <select class="year-dropdown">
-                        <option>Inter 2</option>
-                        <option>Inter 1</option>
-                    </select>
-                </div>
-
-                <nav class="tab-nav">
-                    <Link to="/fee-details" className="tab" active-class="active-tab">Fee Details</Link>
-                    <Link to="/pocket-money" className="tab" active-class="active-tab">Pocket Money</Link>
-                    <Link to="/transport-details" className="tab" active-class="active-tab">Transport Details</Link>
-                    <Link to="/refunds" className="tab" active-class="active-tab">Refunds</Link>
-                    <Link to="/other-fee-heads" className="tab" active-class="active-tab">Other Fee Heads</Link>
-                </nav>
-
-
-
-
-
-                <Routes>
-                    <Route path="/fee-details" element={<FeeDetails />} />
-                    <Route path="/pocket-money" element={<PocketMoney />} />
-                    <Route path="/transport-details" element={<TransportDetails />} />
-                    <Route path="/refunds" element={<Refunds />} />
-                    <Route path="/other-fee-heads" element={<OtherFeeHeads />} />
-                    {/* <Route path="*" element={<FeeDetails />} /> */}
-                </Routes>
-
-
-
-
-            </div>
-
-
-
-
-
         </div>
     );
 }
 
-export default Navbuttons;
+export default MetricsGrid;
