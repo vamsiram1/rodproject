@@ -1,8 +1,8 @@
-import "../styles/pocket-money.css";
+import "../../styles/student-component-styles/pocket-money.css";
 
 
-import srichai from "../assets/srichai.png";
-import srichai2 from "../assets/srichai2.png";
+import srichai from "../../assets/srichai.png";
+import srichai2 from "../../assets/srichai2.png";
 function PocketMoney() {
     return (
         <div className="pocketmoney-container">

@@ -1,4 +1,4 @@
-import "../styles/nav-buttons.css";
+import "../../styles/student-component-styles/nav-buttons.css";
 import { Link ,useLocation} from 'react-router-dom';
 import { useState } from "react";
 

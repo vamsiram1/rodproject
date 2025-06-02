@@ -1,4 +1,4 @@
-import "../styles/fee-details.css"
+import "../../styles/student-component-styles/fee-details.css"
 import TermPaymentChart from "./unpaid-chart";
 function FeeDetails() {
     return (

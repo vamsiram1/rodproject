@@ -1,4 +1,4 @@
-import "../styles/refunds.css"
+import "../../styles/student-component-styles/refunds.css"
 function Refunds(){
     return (
         <>

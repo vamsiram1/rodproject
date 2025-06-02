@@ -1,4 +1,4 @@
-import "../styles/metrics-grid.css"
+import "../../styles/student-component-styles/metrics-grid.css"
 import { useLocation } from 'react-router-dom';
 
 

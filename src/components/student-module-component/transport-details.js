@@ -1,4 +1,4 @@
-import "../styles/transport-details.css";
+import "../../styles/student-component-styles/transport-details.css";
 function TransportDetails() {
     return (
 

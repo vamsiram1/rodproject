@@ -1,18 +1,22 @@
 import { Link } from 'react-router-dom';
-import "../styles/student-module.css";
+import "../../styles/student-component-styles/student-module.css";
 import { Route, Routes } from 'react-router-dom';
 import PocketMoney from './pocket-money';
 import FeeDetails from './fee-details';
 import TransportDetails from './transport-details';
 import Refunds from './refunds';
 import OtherFeeHeads from './other-fee-hands';
-import sudentinfo from "../assets/srichaiinfo.png"
+import sudentinfo from "../../assets/srichaiinfo.png"
 import NavButtons from './nav-buttons';
 import MetricsGrid from './metrics-grid';
+import Headerpart from '../header';
 
 function StudentModule() {
     return (
         <div className="student-container">
+
+            
+
             <NavButtons/>
             <MetricsGrid/>
 

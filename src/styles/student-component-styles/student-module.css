@@ -7,9 +7,10 @@
     flex-direction: column;
     gap: 2vh;
     padding: 1rem;
-    margin-left: 5vw;
+
+    
     margin-top: 8vh;
-    margin-right: 25vw;
+    /* margin-right: 25vw; */
     
     padding-bottom:1em;
 }

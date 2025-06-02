@@ -4,7 +4,7 @@ import {
 } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
  
-const TermPaymentChart = ({ term = "Term 1", amount = 46000, status = "Unpaid", percentage = 25 }) => {
+const TermPaymentChart = ({ term = "Term 1", amount = 46000, status = "Unpaid", percentage = 20 }) => {
   return (
     <div style={{
       width: 150,

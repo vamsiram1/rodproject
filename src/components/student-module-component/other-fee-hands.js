@@ -1,4 +1,4 @@
-import "../styles/other-fee-hands.css"
+import "../../styles/student-component-styles/other-fee-hands.css"
 function OtherFeeHeads() {
     return (
         <div class="fee-head-container">

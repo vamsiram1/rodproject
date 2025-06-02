@@ -1,0 +1,269 @@
+header {
+    width: 100vw;
+    height: 8vh;
+    box-shadow: 0px 0.8px 0px 0px rgba(18, 32, 59, 0.09);
+    background-color: rgba(242, 242, 242, 1);
+    /* padding:1; */
+    
+    position:fixed;
+}
+.header_right{
+   /* margin: 0.5%; */
+}
+.Chaintanya_logo {
+    display: flex;
+    align-items: center;
+    height: 38px;
+
+
+}
+
+.parent_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100%;
+    width:100vw;
+}
+.header_righ{
+    display: flex;
+    justify-content: flex-start;
+}
+.Student_selector_parent {
+    width: 35%;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px 0px 0px 6px;
+    border: 1px solid var(--Light-Gray-Light-Gray-2, #DDE2E4);
+    background: var(--black-white-white, #FFF);
+    margin-top: 10px;
+    justify-content: flex-start;
+    align-self: flex-start;
+    padding: 0px;
+
+}
+.student_selector_wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.student_selector_label {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  cursor: pointer; /* Indicate the label is clickable */
+}
+/* select {
+  border: none;
+  width: 100%;
+  height: 32px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  background: transparent;
+  color: var(--Dark-Gray-Dark-Gray-2, #252C32);
+ 
+} */
+option {
+  font-family: "Segoe UI";
+  font-size: 14px;
+  background-color: #FFF;
+}
+
+.student_selector_text {
+    width: 100%;
+    height: 100%;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 40rem;
+    line-height: 24px;
+    letter-spacing: -0.084px;
+    appearance: none;
+    background-color:#FFF ;
+    
+
+}
+option{
+   font-family: "Segoe UI"; 
+      font-size: 14px; 
+      
+}
+.search_bar_parent {
+    display: flex;
+    width: 55%;
+    height: 32px;
+    border-radius: 0px 6px 6px 0px;
+    border: 1px solid var(--Light-Gray-Light-Gray-2, #dfdde4);
+    background: var(--black-white-white, #FFF);
+    padding: 4px 12px 4px 4px;
+    margin-top: 1vh;
+    align-items:flex-start;
+
+
+}
+
+@media (max-width: 1440px) {
+  .header_middle {
+    /* Increase width to ensure enough space */
+    /* margin-right: 5%;  */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    flex-wrap: nowrap; /* Prevent wrapping */
+  }
+
+  .Student_selector_parent {
+    width: 35%; /* Adjust width */
+    margin-top: 0;
+    padding: 0px;
+  }
+
+  .search_bar_parent {
+
+    width: 65%; /* Adjust width */
+    margin-top: 0; /* Ensure consistent alignment */
+  }
+
+  .Approvals_container {
+    display:flex;
+    align-items: center; /* Ensure consistent alignment */
+    
+  }
+}
+
+select {
+  border: none;
+
+ 
+  
+}
+option{
+    background-color: #FFF;
+}
+input{
+width: 100%;
+border: none;
+}
+
+.search_bar_text {
+    width: 88%;
+    color: var(--Mid-Gray-Mid-Gray-4, #9AA6AC);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    
+    letter-spacing: -0.084px;
+
+    
+}
+
+.header_middle {
+    height: 32px;
+    width: 30vw;;
+    display: flex;
+    /* margin-right: 14%; */
+    
+    justify-content: flex-start;
+}
+.Approvals_container {
+    /* display: flex; */
+    
+    /* margin-left: -9%;  */
+    /* padding-right:5vw; */
+    display: inline-flex;
+    height:100%;
+
+}
+
+.Approvals_parent {
+    display: flex;
+    width: 43%;
+    height: 6vh;
+    background: #FFF;
+    padding: 5px 10px 5px 15px;
+    /* margin-top: 2.4%; */
+    align-items: center;
+    box-shadow: 1px 1px 5px rgb(113, 104, 248);
+    border-radius: 7px;
+    justify-content: flex-start;
+    
+    /* margin-left: 1.5%;  */
+    /* margin-right: auto; Center horizontally */
+}
+.input_class{
+    border: none;
+}
+.Approvals_button_icon {
+    padding: 1px;
+
+
+}
+
+.Approval_text {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: normal;
+    color: #3425FF;
+    font-family: "Segoe UI";
+    padding-bottom:0.5vh;
+}
+.notification_parnet{
+    width:60%;
+
+}
+.notification_icon{
+    
+    /* padding-left: 1.5vw;
+    
+    padding-right: 1.5vw; */
+}
+.casher_text{
+    margin-left: 10px;
+    height:100%;
+    white-space: nowrap; 
+    
+}
+.casher_container{
+     display: flex;
+    align-self: center;
+    /* padding:1em; */
+    
+}
+
+.casher_img{
+ width: 36px;
+ height: 36px;  
+ margin-top: 6%; 
+  
+}
+.casher-name{
+
+align-self: stretch; 
+color: var(--Gray-700, #344054);
+font-family: "Segoe UI";
+font-size: 1.1rem;
+font-style: normal;
+font-weight: 600;
+line-height:  142.857%;
+/* margin-top: 12%; */
+}
+.cahser-role{
+color: #676767;
+font-family: "Segoe UI";
+font-size: 0.9rem;
+font-style: normal;
+font-weight: 400;
+
+/* margin-top: 2%; */
+/* line-height:  166.667% ; */
+}
+.haeder_end_section{
+    display: flex;
+   
+}
+
