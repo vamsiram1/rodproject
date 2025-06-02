@@ -2,11 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 40px;
   flex-wrap: nowrap;
-  height:36.8vh;
-  width:65vw;
-  padding-top:5vh;
+  height:30vh;
+  width:100%;
+  padding-top:3vh;
   padding-left:2.5vw;
   /* padding-bottom:6vh; */
 }
@@ -21,11 +20,13 @@
 }
 
 .transport-row {
-  padding-top:2vh;
+  /* padding-top:2vh; */
   display: flex;
+  width:25vw;
   justify-content: space-between;
   font-size: 16px;
   color: #444;
+  height:4vh;
 }
 
 .transport-row p {
@@ -53,7 +54,7 @@
   /* display:flex;
   justify-content: center; */
   text-align: center;
-  padding-top:1vh;
+  /* padding-top:1vh; */
   /* padding-bottom:10vh; */
 }
 .manage-button:hover {

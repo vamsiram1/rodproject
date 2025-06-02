@@ -17,7 +17,7 @@ function StudentModule() {
 
             
 
-            <NavButtons/>
+            
             <MetricsGrid/>
 
             {/* <!-- student-info --> */}

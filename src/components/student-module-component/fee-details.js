@@ -19,8 +19,9 @@ function FeeDetails() {
                     <div class="fee-row"><span>Over All Due</span><span>0</span></div>
                     <div class="fee-row"><span>Service Tax To Be Paid</span><span>0</span></div>
                 </div>
-
+                <div className="payment-chart">
                 <TermPaymentChart/>
+                </div>
             </div>
 
             <div class="payment-button-container">

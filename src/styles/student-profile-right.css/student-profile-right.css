@@ -1,11 +1,13 @@
 p{
-    font-size: 0.7rem;
+    font-size: 0.782rem;
     margin:0;
 }
 
 h3{
+    font-size: 1rem;
     margin:0;
 }
+
 .student_right{
     /* background-image: url("../assets/Frame\ 1410092088.png"); */
     background-size: cover;

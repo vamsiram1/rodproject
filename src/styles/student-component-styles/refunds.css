@@ -1,9 +1,9 @@
 .refund-container {
   width: 294px;
-  height: 45vh;
+  height: 35vh;
   display: flex;
   flex-wrap: wrap;
-  gap: 35px 0; /* vertical gap only */
+  gap: 25px ; /* vertical gap only */
   align-content: flex-start;
   padding-left:5vw;
   padding-top:5vh;

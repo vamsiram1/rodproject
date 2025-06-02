@@ -1,50 +1,42 @@
-
 import './App.css';
 import Headerpart from './components/header';
 import SideBar from './components/sidebar';
-
 import StudentModule from './components/student-module-component/student-module';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import PaymentModule from './components/payment-module/payment-module';
+
 import StudentProfileRight from './components/student-profile-right/studentprofile-right';
+// import PaymentProfileRight from './components/payment-profile-right/payment-profile-right';
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import NavButtons from './components/student-module-component/nav-buttons';
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Headerpart />
-      <div classsName="main_body" id='body_main'>
+      <div className="main_body" id='body_main'>
         <div className='side'>
           <SideBar />
         </div>
         <div className='main'>
           <div className='main_left_side'>
-<BrowserRouter>
-
+            <NavButtons />
             <Routes>
-
-              <Route path="/student/*" element={<StudentModule/>} />
-              {/* <Route path="/payments" element={<Payments />} />
-            <Route path="/receipts" element={<Receipts />} />
-            <Route path="/transport" element={<Transport />} />
-            <Route path="/academics" element={<Academics />} />
-            <Route path="/alerts" element={<Alerts />} />
-            <Route path="/history" element={<History />} />
-            <Route path="/room-allotment" element={<RoomAllotment />} /> */}
+              <Route path="/student/*" element={<StudentModule />} />
+              {/* <Route path="/payments/*" element={<PaymentModule />} /> */}
+              {/* Add more routes here */}
             </Routes>
-
-          </BrowserRouter>
           </div>
-          
+
           <div className='main_side_right'>
-           <StudentProfileRight/>
+            <Routes>
+              <Route path="/student/*" element={<StudentProfileRight />} />
+              {/* <Route path="/payments/*" element={<PaymentProfileRight />} /> */}
+            </Routes>
           </div>
-          
         </div>
-
-         
-          
-        
       </div>
-    </>
+    </BrowserRouter>
   );
 }
 

@@ -22,7 +22,7 @@
   width: 95%;
   height: 100%;
   display: flex;
-  gap: 10px;
+  /* gap: 10px; */
 }
 
 .main_left_side{
@@ -30,6 +30,8 @@
 }
 
 .main_side_right{
+  /* margin-top:8vh; */
   width: 20%;
   height:calc(100% - 8vh);
+  padding:10px;
 }
