@@ -9,6 +9,7 @@ import StudentProfileRight from './components/student-profile-right/studentprofi
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavButtons from './components/student-module-component/nav-buttons';
+import FeePaymentForm from './components/payments-module-component/payments';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
             <NavButtons />
             <Routes>
               <Route path="/student/*" element={<StudentModule />} />
-              {/* <Route path="/payments/*" element={<PaymentModule />} /> */}
+              <Route path="/payments/*" element={<FeePaymentForm/>} />
               {/* Add more routes here */}
             </Routes>
           </div>
@@ -31,7 +32,7 @@ function App() {
           <div className='main_side_right'>
             <Routes>
               <Route path="/student/*" element={<StudentProfileRight />} />
-              {/* <Route path="/payments/*" element={<PaymentProfileRight />} /> */}
+              
             </Routes>
           </div>
         </div>
