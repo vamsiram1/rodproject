@@ -10,6 +10,7 @@ import StudentProfileRight from './components/student-profile-right/studentprofi
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavButtons from './components/student-module-component/nav-buttons';
 import FeePaymentForm from './components/payments-module-component/payments';
+import MainScreen from './components/payments-module-component/payments-screen';
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
             <NavButtons />
             <Routes>
               <Route path="/student/*" element={<StudentModule />} />
-              <Route path="/payments/*" element={<FeePaymentForm/>} />
+              <Route path="/*" element={<MainScreen/>} />
               {/* Add more routes here */}
             </Routes>
           </div>
