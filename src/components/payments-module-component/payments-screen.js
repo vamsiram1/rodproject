@@ -4,13 +4,13 @@ import { Routes, Route, NavLink } from 'react-router-dom';
 import '../../styles/payment-module-styles/payment-screen.css';
 // import dollar from '../assets/dollar.png';
 import Payment from '../../components/payments-module-component/payments';
-// import Cancellation from './Cancellation';
-// import Concession from './Concession';
-// import PMIssue from './PMIssue';
-// import FeeInstallments from './FeeInstallments';
-// import AkashBooks from './AkashBooks';
-// import Transfers from './Transfers';
-// import Uniform from './Uniform';
+import Cancellation from '../../components/payments-module-component/Cancellation';
+import Concession from '../../components/payments-module-component/Concession';
+import PMIssue from '../../components/payments-module-component/PMIssue';
+import FeeInstallments from '../../components/payments-module-component/FeeInstallments';
+import AkashBooks from '../../components/payments-module-component/AkashBooks';
+import Transfers from '../../components/payments-module-component/Transfers';
+import Uniform from '../../components/payments-module-component/Uniform';
 import useNavigation from '../../customHooks/useNavigation';
 
 const MainScreen = () => {
@@ -50,13 +50,13 @@ const MainScreen = () => {
                                 <div className="sub-tab-content">
                                     <Routes>
                                         <Route path="/payments" element={<Payment />} />
-                                        {/* <Route path="/cancellation" element={<Cancellation />} />
+                                        <Route path="/cancellation" element={<Cancellation />} />
                                         <Route path="/concession" element={<Concession />} />
                                         <Route path="/pm-issue" element={<PMIssue />} />
                                         <Route path="/fee-installments" element={<FeeInstallments />} />
                                         <Route path="/akash-books" element={<AkashBooks />} />
                                         <Route path="/uniform" element={<Uniform />} />
-                                        <Route path="/transfers" element={<Transfers />} /> */}
+                                        <Route path="/transfers" element={<Transfers />} />
                                     </Routes>
                                 </div>
                             </>

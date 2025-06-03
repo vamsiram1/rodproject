@@ -1,0 +1,137 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.akash-books-container {
+    padding: 24px;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    max-width: 600px;
+}
+
+.top-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.tracking-button {
+    background-color: #4f46e5;
+    color: white;
+    text-transform: none;
+    font-size: 14px;
+    padding: 6px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.history-button {
+    text-transform: none;
+    font-size: 14px;
+    padding: 6px 16px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: white;
+    cursor: pointer;
+}
+
+.tracking-icon,
+.history-icon {
+    margin-left: 6px;
+}
+
+.form-card {
+    background: linear-gradient(to bottom right, white, #f0f4ff, #ffe4e6);
+    border-radius: 12px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+
+.form-group select,
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: white;
+}
+
+.form-group select {
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><path fill="%23666" d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 30px;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #aaa;
+    text-transform: uppercase;
+}
+
+.form-group textarea {
+    resize: none;
+}
+
+.print-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.print-blue {
+    background-color: #3b82f6;
+    color: white;
+    text-transform: none;
+    padding: 10px 40px;
+    font-size: 16px;
+    border-radius: 8px;
+    width: 120px;
+    border: none;
+    cursor: pointer;
+}
